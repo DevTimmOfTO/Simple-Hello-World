@@ -1,0 +1,126 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  BorderStyle = bsDialog
+  Caption = 'Hello World'
+  ClientHeight = 442
+  ClientWidth = 628
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -12
+  Font.Name = 'Segoe UI'
+  Font.Style = []
+  TextHeight = 15
+  object Label1: TLabel
+    Left = 274
+    Top = 62
+    Width = 97
+    Height = 21
+    Caption = 'Hello World!'
+    Color = clBlack
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -17
+    Font.Name = 'OpenSymbol'
+    Font.Style = []
+    ParentColor = False
+    ParentFont = False
+    Visible = False
+  end
+  object Label2: TLabel
+    Left = 8
+    Top = 392
+    Width = 190
+    Height = 15
+    Alignment = taCenter
+    Caption = 'Das Programm ist von Timm G'#246'ring'
+  end
+  object Label3: TLabel
+    Left = 8
+    Top = 413
+    Width = 56
+    Height = 15
+    Alignment = taCenter
+    Caption = 'Version 1.0'
+  end
+  object Label4: TLabel
+    Left = 360
+    Top = 318
+    Width = 45
+    Height = 15
+    Caption = 'Eingabe:'
+  end
+  object Label5: TLabel
+    Left = 360
+    Top = 347
+    Width = 49
+    Height = 15
+    Caption = 'Ausgabe:'
+  end
+  object Button1: TButton
+    Left = 112
+    Top = 112
+    Width = 385
+    Height = 97
+    Caption = 'Label erscheinen lassen und Verschwinden'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -23
+    Font.Name = 'Bahnschrift Condensed'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+  object Button3: TButton
+    Left = 545
+    Top = 409
+    Width = 75
+    Height = 25
+    Caption = 'Exit'
+    TabOrder = 1
+    OnClick = Button3Click
+  end
+  object Button4: TButton
+    Left = 16
+    Top = 282
+    Width = 115
+    Height = 57
+    Caption = 'Zeige Nachricht'
+    TabOrder = 2
+    OnClick = Button4Click
+  end
+  object TestBtn: TButton
+    Left = 216
+    Top = 314
+    Width = 113
+    Height = 25
+    Caption = 'Kopiere Text'
+    TabOrder = 3
+    OnClick = TestBtnClick
+  end
+  object Edit1: TEdit
+    Left = 424
+    Top = 315
+    Width = 121
+    Height = 23
+    TabOrder = 4
+  end
+  object Edit2: TEdit
+    Left = 424
+    Top = 344
+    Width = 121
+    Height = 23
+    TabOrder = 5
+  end
+  object ResetBtn: TButton
+    Left = 216
+    Top = 345
+    Width = 113
+    Height = 25
+    Caption = 'Textfelder leeren'
+    TabOrder = 6
+    OnClick = ResetBtnClick
+  end
+end
